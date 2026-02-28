@@ -1,0 +1,10 @@
+/*
+
+Q3. For sorting of cards, you are provided with Suit enumeration (Suit.java) and Rank enumeration (Rank.java) below. 
+Apply both files inside the cards package as mentioned below. 
+Develop another Java class named PlayingCard inside cards package that implements Comparable<PlayingCard> and has compareTo ( ) overridden method. 
+The PlayingCard class has two private fields for Suit and Rank, a constructor PlayingCard ( ), two getter methods, and a toString ( ) method that returns in format of <rank> of <suit> (say, FIVE of HEARTS). 
+The compareTo ( ) method of the PlayingCard class must compute the difference (say, int diff) as this suit compared to other suit, and if the difference is zero, it is computed as this rank - other rank. 
+Finally, in the main method, please create a List of PlayingCard ( List<PlayingCard> cards = new LinkedList< >( ); ) and add around five cards of your choice (using cards.add ( ) method) and print it before and after the sort (using Collection.sort (cards) method).
+
+*/

@@ -1,0 +1,8 @@
+/* 
+
+Q2. Using the UML provided, (inside the deques package) create an ADT (say, an interface Deque.java that extends Iterable<E>) to represent the deque data structure. 
+Include a default  implementation of the iterator ( ) method that throws an UnsupportedOperationException as public Iterator <E> iterator ( ) {...}. 
+Create a new Java class named MyDeque.java and use it to implement the Deque ADT (public class MyDeque<E> implements Deque<E> {...}) that has all 6 overrides on top of the list field (as private final LinkedList<E> list;) and MyDeque ( ) constructor. 
+You may use the data structure of your choice, including those provided to you in this repository and the JCF implementations of the data structures introduced in our units 5 and 6 (excluding Java's Deque  implementation).
+
+*/
