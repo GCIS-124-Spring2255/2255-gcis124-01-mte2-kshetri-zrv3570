@@ -5,18 +5,21 @@
 package mte2.shapes;
 
 public class Rectangle {
-// public class Rectangle implements Shape {
-    
-    // private final double length;
-    // private final double width;
-
-    // public Rectangle(double length,double width) {  this.length = length;  this.width = width;  }
-
-    // @Override
-    // @Override
-    
-    public static void main(String[] args) {
-        
+    public static Shape createRectangle(double w, double h)
+    {
+        return new Shape()
+        {
+            @Override
+            public double area(){return w*h;}
+            @Override
+            public double perimeter(){return 2*w*h;}
+        };
+    }
+    public static void main(String[] args) 
+    {
+        Shape r = createRectangle(4, 5);
+        System.out.println(r.area());
+        System.out.println(r.perimeter());
         // ...
 
     }
